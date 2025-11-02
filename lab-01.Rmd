@@ -30,14 +30,14 @@ _How many tourist attractions are there in the data set?_
 visitors %>% count()
 ```
 
-### Exercise a.
+There are 348 tourist attractions
 
 _Create a frequency table of the number of tourist attractions in the data set by `region`._
 
 ```{r Ex_a}
 # Delete the comment '#' symbol at the start of the next line and complete the code. 
 
-#visitors %>% count(_____)
+visitors %>% count(region)
 ```
 
 ### Exercise b.
